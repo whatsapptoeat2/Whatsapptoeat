@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.whatsuptoeat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.whatsuptoeat.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.whatsuptoeat.VerwaltenActivity"
+            android:label="@string/title_activity_verwalten"
+            android:parentActivityName="com.example.whatsuptoeat.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.whatsuptoeat.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.whatsuptoeat.SucheActivity"
+            android:label="@string/title_activity_suche"
+            android:parentActivityName="com.example.whatsuptoeat.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.whatsuptoeat.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.whatsuptoeat.EinkaufskorbActivity"
+            android:label="@string/title_activity_einkaufskorb"
+            android:parentActivityName="com.example.whatsuptoeat.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.whatsuptoeat.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

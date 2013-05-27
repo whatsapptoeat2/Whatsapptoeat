@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WhatsAppToEat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="goto_Verwalten">Verwalten</string>
+    <string name="goto_Suche">Suche</string>
+    <string name="goto_Einkaufskorb">Einkaufskorb</string>
+    <string name="title_activity_verwalten">Verwalten</string>
+    <string name="title_activity_suche">Suche</string>
+    <string name="coming_soon">coming soon</string>
+    <string name="title_activity_einkaufskorb">Einkaufskorb</string>
+    <string name="neuer_Eintrag">neuer Eintrag</string>
+    <string name="Liste_anzeigen">Liste anzeigen</string>
+    <string name="Allgemeine_Suche">Allgemeine Suche</string>
+    <string name="Zutatensuche">Zutatensuche</string>
+
+</resources>
