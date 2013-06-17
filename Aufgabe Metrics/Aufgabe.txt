@@ -1,0 +1,30 @@
+9. Metrics analysis
+
+An example Table of Content. Unfortunately, I do not have a good example 
+for you to look at. Remember to :
+- use screenshots to show what you did
+- explain what the metric does
+- explain how the metric is interpreted for your code
+- explain what you could do to improve the code (but don't actually do it)
+
+
+- Metrics Screenshot
+-> McCabe
+-> Number of Classes
+ 	
+
+Give 1 point for each of these if present:
+
+- Metrics Report is attached or linked (using use case template)
+- There is an explanation provided with the handin that explains
+ what the metrics mean.
+- 2 metrics are explained in detail using numbers from their own code 
+(explanation means that it shows that the number makes sense and the 
+students can give examples of "bad" or "good" code)
+- evidence of tool used is present with a screenshot in the document
+- one extra point for very impressive documentation
+
+Last two points show the following:
+You will not be graded on having "good metrics" but on understanding how 
+you can use metrics to improve your code and how to use an automatic tool
+ to get to the information efficiently! 
